@@ -1,0 +1,28 @@
+body {
+    background-color: green;
+    /* font-size: 40px; */
+}
+
+form {
+    background-color: aqua;
+}
+
+.number1 {
+    background-color: blueviolet;
+}
+
+.font-besar {
+    font-size: 50px;
+}
+
+.font-pilihan {
+    font-size: 10px;
+}
+
+.test-1 {
+    background-color: aquamarine;
+}
+
+.font-kecil {
+    font-size: 8px;
+}
