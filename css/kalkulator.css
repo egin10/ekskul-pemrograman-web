@@ -1,28 +1,42 @@
 body {
     background-color: green;
-    /* font-size: 40px; */
 }
 
 form {
-    background-color: aqua;
+    background-color: orange;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 25px;
 }
 
-.number1 {
-    background-color: blueviolet;
+.input-number {
+    display: block;
+    background-color: white;
+    border: none;
+    margin: 10px auto;
+    width: 200px;
+    padding: 10px;
 }
 
-.font-besar {
-    font-size: 50px;
+select {
+    display: block;
+    background-color: white;
+    margin: 10px auto;
+    width: 200px;
+    border: none;
+    padding: 8px;
 }
 
-.font-pilihan {
-    font-size: 10px;
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: blue;
+    border: none;
+    font-size: 16px;
+    color: white;
 }
 
-.test-1 {
-    background-color: aquamarine;
-}
-
-.font-kecil {
-    font-size: 8px;
+.hasil {
+    margin: auto;
 }
