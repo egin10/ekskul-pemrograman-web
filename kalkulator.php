@@ -11,6 +11,11 @@
 
 <body>
 
+    <div class="navbar">
+        <a href="kalkulator.php">Kalkulator</a>
+        <a href="profile.php">Profile</a>
+    </div>
+
     <form method="GET" action="">
         <input type="text" name="number1" placeholder="number1" class="input-number">
         <input type="text" name="number2" placeholder="number2" class="input-number">
@@ -26,6 +31,7 @@
         <button type="submit">Hitung</button>
     </form>
 
+    <div class="hasil">
         <?php
 
         // localhost/php-dasar/kalkulator.php?number1=12&number2=12&operator=kali
@@ -38,26 +44,26 @@
 
             switch ($_GET['operator']) {
                 case "tambah":
-                    echo "Hasil : " . ($_GET['number1'] + $_GET['number2']);
+                    echo ($_GET['number1'] + $_GET['number2']);
                     break;
                 case "kurang":
-                    echo "Hasil : " . ($_GET['number1'] - $_GET['number2']);
+                    echo ($_GET['number1'] - $_GET['number2']);
                     break;
                 case "kali":
-                    echo "Hasil : " . ($_GET['number1'] * $_GET['number2']);
+                    echo ($_GET['number1'] * $_GET['number2']);
                     break;
                 case "bagi":
-                    echo "Hasil : " . ($_GET['number1'] / $_GET['number2']);
+                    echo ($_GET['number1'] / $_GET['number2']);
                     break;
                 default:
                     echo "Silahkan pilih operator yang tersedia.";
                     break;
             }
-        } else {
-            echo 'Number1, Number2 dan Operator harus terisi.';
         }
 
         ?>
+
+    </div>
 
 </body>
 

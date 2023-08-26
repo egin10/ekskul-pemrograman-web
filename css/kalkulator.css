@@ -1,42 +1,55 @@
 body {
-    background-color: green;
+  background-color: green;
 }
 
 form {
-    background-color: orange;
-    width: fit-content;
-    margin: auto;
-    padding: 20px 30px;
-    border-radius: 25px;
+  background-color: orange;
+  width: fit-content;
+  margin: auto;
+  padding: 20px 30px;
+  border-radius: 25px;
 }
 
 .input-number {
-    display: block;
-    background-color: white;
-    border: none;
-    margin: 10px auto;
-    width: 200px;
-    padding: 10px;
+  display: block;
+  background-color: white;
+  border: none;
+  margin: 10px auto;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 select {
-    display: block;
-    background-color: white;
-    margin: 10px auto;
-    width: 200px;
-    border: none;
-    padding: 8px;
+  display: block;
+  background-color: white;
+  margin: 10px auto;
+  width: 220px;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 button {
-    display: block;
-    margin: 10px auto;
-    background-color: blue;
-    border: none;
-    font-size: 16px;
-    color: white;
+  display: block;
+  margin: 10px auto;
+  background-color: blue;
+  border: none;
+  font-size: 16px;
+  color: white;
+  width: 220px;
+  padding: 10px 0;
+  border-radius: 8px;
 }
 
 .hasil {
-    margin: auto;
+  background-color: beige;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
 }
