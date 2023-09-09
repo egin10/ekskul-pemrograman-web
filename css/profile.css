@@ -1,0 +1,63 @@
+.card {
+    background-color: bisque;
+    height: 700px;
+    width: 280px;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.card-title {
+    display: flex;
+    background-color: brown;
+    color: white;
+    justify-content: center;
+    padding: 4px 0;
+    border-radius: 8px;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    height: 400px;
+    width: 240px;
+}
+
+.title-japan {
+    background-color: brown;
+    margin: 10px 0;
+    color: white;
+    border-radius: 8px;
+}
+
+.title-japan h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.title-japan span {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 0;
+}
+
+.content-info-title {
+    width: 100px;
+    padding: 0 8px;
+}
+
+.content-info-body {
+    display: flex;
+    flex-direction: column;
+}
