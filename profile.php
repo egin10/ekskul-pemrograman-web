@@ -58,6 +58,25 @@
                 Shueisha
             </div>
         </div>
+
+        <h5 class="card-title">Anime television series</h5>
+
+        <ul class="content-list">
+            <li><span>Naruto </span>(2002-07)</li>
+            <li><span>Naruto: Shippuden </span>(2007-17)</li>
+        </ul>
+
+        <h5 class="card-title">Media franchise</h5>
+
+        <ul class="content-list">
+            <li>List of <span>Naruto</span> media</li>
+            <ul>
+                <li>List of <span>Naruto</span> films</li>
+                <li>List of <span>Naruto</span> video games</li>
+                <li><span>Boruto: Naruto Next Generations</span></li>
+            </ul>
+        </ul>
+
     </div>
 
 </body>
